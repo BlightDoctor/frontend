@@ -455,6 +455,11 @@ tr {
 		border: 1px solid black;
 }
 
+.form__input._error {
+		-webkit-box-shadow: 0 0 5px red;
+		        box-shadow: 0 0 5px red;
+}
+
 textarea.form__input {
 		font-size: 18;
 		min-height: 120px;
@@ -511,8 +516,8 @@ textarea.form__input {
 }
 
 .form__input:focus {
-		-webkit-box-shadow: 0 0 5px #EA2132;
-		        box-shadow: 0 0 5px #EA2132;
+		-webkit-box-shadow: 0 0 5px green;
+		        box-shadow: 0 0 5px green;
 }
 
 @media screen and (max-width: 1246px) {
