@@ -45,7 +45,7 @@
 					
 				</div>
 			</div>
-			<div class="container">
+			<div class="container info">
 				<div class="info_text info">
 					<p><a name="about"></a></p>
 					<p class="info_text title">СТАТИСТИКА НАШЕЙ КОМПАНИИ</p>	
@@ -76,6 +76,7 @@
 				<div class="price">
 					<div class="price__title title">Услуги и цены</div>
 					<p><a name="price"></a></p>
+					<span class="phone_text">Выезд и диагностика бесплатны при ремонте. Цены вы можете посмотреть на полном сайте или уточнить по телефону.</span>
 					<nav class="price__items">
 						<a href="#tab_01" class="price__item"><span>Стиральные машины</span></a>
 						<a href="#tab_02" class="price__item"><span>Посудомоечные машины</span></a>
@@ -306,15 +307,15 @@
 						Или вы можете оставить заявку на сайте и мы сами вам перезвоним в течении получаса!
 					</div>
 					<div class="contacts__field">
-						<form action="#" id="form" class="form__body"></form>
+						<form action="mail.php" id="form" class="form__body" method="POST"></form>
 						<h1 class="form__title">Отправить заявку на ремонт</h1>
 						<div class="form__item">
 							<label for="formName" class="form__label">Имя*:</label>
-							<input id="formName" type="text" name="name" class="form__input _req">
+							<input id="formName" type="text" name="name" class="form__input _req" placeholder="Иванов Иван">
 						</div>
 						<div class="form__item">
 							<label for="formNumber" class="form__label">Контактный телефон*:</label>
-							<input id="formNumber" type="text" name="number" class="form__input _req">
+							<input id="formNumber" type="text" name="number" class="form__input _req" placeholder="+7(999)999-99-99">
 						</div>
 						<div class="form__item">
 							<label for="formType" class="form__label">Что у вас сломалось?</label>
@@ -330,7 +331,7 @@
 						</div>
 						<div class="form__item">
 							<label for="formMessage" class="form__label">Опишите проблему:</label>
-							<textarea name="message" id="formMessage" class="form__input" ></textarea>
+							<textarea name="message" id="formMessage" class="form__input" placeholder="Опишите проблему"></textarea>
 						</div>
 						<button type="sumbit" class="form__button">Отправить</button>
 					</div>
@@ -338,6 +339,7 @@
 			</div>
 		</main>
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>
