@@ -156,8 +156,8 @@ header nav {
 		background-color: #ea2132;
 		list-style-type: none;
 		border-radius: 7%;
-		-webkit-box-shadow: 0 0 8px black;
-		        box-shadow: 0 0 8px black;
+		-webkit-box-shadow: 0 0 8px rgb(0, 0, 0);
+		        box-shadow: 0 0 8px rgb(0, 0, 0);
 		-webkit-transition: background 0.2s linear;
 		transition: background 0.2s linear;
 }
@@ -258,13 +258,13 @@ main {
 		        align-items: center;
 		background-color: #EA2132;
 		color: #fff;
-		-webkit-box-shadow: 0 0 5px 0 black;
-		        box-shadow: 0 0 5px 0 black;
+		-webkit-box-shadow: 0 0 5px 0 rgb(0, 0, 0);
+		        box-shadow: 0 0 5px 0 rgb(0, 0, 0);
 }
 
 .info_stats-item:hover {
-		-webkit-box-shadow: 0 0 8px 0 black;
-		        box-shadow: 0 0 8px 0 black;
+		-webkit-box-shadow: 0 0 8px 0 rgb(0, 0, 0);
+		        box-shadow: 0 0 8px 0 rgb(0, 0, 0);
 }
 
 .info_stats-item-num {
